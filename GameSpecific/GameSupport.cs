@@ -113,6 +113,8 @@ namespace LiveSplit.SourceSplit.GameSpecific
                     return new HL2Ep1();
                 case "ep2":
                     return new HL2Ep2();
+                case "hl1":
+                    return new HLS();
                 case "portal":
                 case "portalelevators":
                     return new Portal();
